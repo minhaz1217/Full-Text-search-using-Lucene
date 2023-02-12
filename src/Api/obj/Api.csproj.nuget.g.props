@@ -21,6 +21,7 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\HA HA\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgLucene_Net Condition=" '$(PkgLucene_Net)' == '' ">C:\Users\HA HA\.nuget\packages\lucene.net\4.8.0-beta00016</PkgLucene_Net>
     <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">C:\Users\HA HA\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.17.0</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
   </PropertyGroup>
 </Project>

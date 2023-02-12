@@ -25,3 +25,10 @@ D:\MyComputer\website\c#\Full-Text-search-using-Lucene\src\Api\obj\Debug\net6.0\
 D:\MyComputer\website\c#\Full-Text-search-using-Lucene\src\Api\obj\Debug\net6.0\Api.pdb
 D:\MyComputer\website\c#\Full-Text-search-using-Lucene\src\Api\obj\Debug\net6.0\Api.genruntimeconfig.cache
 D:\MyComputer\website\c#\Full-Text-search-using-Lucene\src\Api\obj\Debug\net6.0\ref\Api.dll
+D:\MyComputer\website\c#\Full-Text-search-using-Lucene\src\Api\bin\Debug\net6.0\J2N.dll
+D:\MyComputer\website\c#\Full-Text-search-using-Lucene\src\Api\bin\Debug\net6.0\Lucene.Net.dll
+D:\MyComputer\website\c#\Full-Text-search-using-Lucene\src\Api\bin\Debug\net6.0\Lucene.Net.Analysis.Common.dll
+D:\MyComputer\website\c#\Full-Text-search-using-Lucene\src\Api\bin\Debug\net6.0\Domain.dll
+D:\MyComputer\website\c#\Full-Text-search-using-Lucene\src\Api\bin\Debug\net6.0\Service.dll
+D:\MyComputer\website\c#\Full-Text-search-using-Lucene\src\Api\bin\Debug\net6.0\Domain.pdb
+D:\MyComputer\website\c#\Full-Text-search-using-Lucene\src\Api\bin\Debug\net6.0\Service.pdb

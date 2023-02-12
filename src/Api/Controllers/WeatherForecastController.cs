@@ -1,3 +1,4 @@
+using Domains;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Full_Text_search_using_Lucene.Controllers

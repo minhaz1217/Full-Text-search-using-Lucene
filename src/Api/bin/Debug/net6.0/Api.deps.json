@@ -8,14 +8,57 @@
     ".NETCoreApp,Version=v6.0": {
       "Api/1.0.0": {
         "dependencies": {
+          "Domain": "1.0.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.0",
+          "Service": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
           "Api.dll": {}
         }
       },
+      "J2N/2.0.0": {
+        "runtime": {
+          "lib/net6.0/J2N.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Lucene.Net/4.8.0-beta00016": {
+        "dependencies": {
+          "J2N": "2.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Lucene.Net.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
+      "Lucene.Net.Analysis.Common/4.8.0-beta00016": {
+        "dependencies": {
+          "Lucene.Net": "4.8.0-beta00016"
+        },
+        "runtime": {
+          "lib/net6.0/Lucene.Net.Analysis.Common.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
+      "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        }
+      },
       "Microsoft.OpenApi/1.2.3": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -62,6 +105,21 @@
             "fileVersion": "6.2.3.0"
           }
         }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {},
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
+      },
+      "Service/1.0.0": {
+        "dependencies": {
+          "Lucene.Net": "4.8.0-beta00016",
+          "Lucene.Net.Analysis.Common": "4.8.0-beta00016"
+        },
+        "runtime": {
+          "Service.dll": {}
+        }
       }
     }
   },
@@ -71,12 +129,47 @@
       "serviceable": false,
       "sha512": ""
     },
+    "J2N/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M5bwDajAARZiyqupU+rHQJnsVLxNBOHJ8vKYHd8LcLIb1FgLfzzcJvc31Qo5Xz/GEHFjDF9ScjKL/ks/zRTXuA==",
+      "path": "j2n/2.0.0",
+      "hashPath": "j2n.2.0.0.nupkg.sha512"
+    },
+    "Lucene.Net/4.8.0-beta00016": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DCtUbE/NIrisNI7hRwU+UKS3Cr6S2vH1XB9wvEHHI3anu5OUpX1Fkr/PDC7oFCaol/QCvzVLbLZVizAT1aTLpA==",
+      "path": "lucene.net/4.8.0-beta00016",
+      "hashPath": "lucene.net.4.8.0-beta00016.nupkg.sha512"
+    },
+    "Lucene.Net.Analysis.Common/4.8.0-beta00016": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7pjEAIliWdih6E3I0hCE8hKcKKRx1LLzeQBslF1fhvzE1Sal4NyHd8RFJHV1Z+yHlBw4gCyyVIDZADiIoyqwxg==",
+      "path": "lucene.net.analysis.common/4.8.0-beta00016",
+      "hashPath": "lucene.net.analysis.common.4.8.0-beta00016.nupkg.sha512"
+    },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "path": "microsoft.extensions.apidescription.server/3.0.0",
       "hashPath": "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rHFrXqMIvQNq51H8RYTO4IWmDOYh8NUzyqGlh0xHWTP6XYnKk7Ryinys2uDs+Vu88b3AMlM3gBBSs78m6OQpYQ==",
+      "path": "microsoft.extensions.configuration.abstractions/2.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
+      "path": "microsoft.extensions.primitives/2.0.0",
+      "hashPath": "microsoft.extensions.primitives.2.0.0.nupkg.sha512"
     },
     "Microsoft.OpenApi/1.2.3": {
       "type": "package",
@@ -119,6 +212,23 @@
       "sha512": "sha512-bCRI87uKJVb4G+KURWm8LQrL64St04dEFZcF6gIM67Zc0Sr/N47EO83ybLMYOvfNdO1DCv8xwPcrz9J/VEhQ5g==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.2.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
+      "path": "system.runtime.compilerservices.unsafe/4.4.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

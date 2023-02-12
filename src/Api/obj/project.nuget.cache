@@ -1,16 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "J6ZNTNmFozmQlTQLOJlNSdIm+azeMaQ1/2zjkv/SlyUtdl9j2mOEUw9s5Tu0t7eoOzkZQX5BCZluNj0Qo51Phg==",
+  "dgSpecHash": "Wntn72pNdPHB++FKxlADeAfOjwWMYWEZRfbisYOd+iiPFsjdIx6/QyaKzwvb1MlG9SlADzXSOw0j2GCzK1x0pg==",
   "success": true,
   "projectFilePath": "D:\\MyComputer\\website\\c#\\Full-Text-search-using-Lucene\\src\\Api\\Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HA HA\\.nuget\\packages\\j2n\\2.0.0\\j2n.2.0.0.nupkg.sha512",
+    "C:\\Users\\HA HA\\.nuget\\packages\\lucene.net\\4.8.0-beta00016\\lucene.net.4.8.0-beta00016.nupkg.sha512",
+    "C:\\Users\\HA HA\\.nuget\\packages\\lucene.net.analysis.common\\4.8.0-beta00016\\lucene.net.analysis.common.4.8.0-beta00016.nupkg.sha512",
     "C:\\Users\\HA HA\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\HA HA\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.0.0\\microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\HA HA\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
     "C:\\Users\\HA HA\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\HA HA\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\HA HA\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\HA HA\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\HA HA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\HA HA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\HA HA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\HA HA\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
   ],
   "logs": []
 }
